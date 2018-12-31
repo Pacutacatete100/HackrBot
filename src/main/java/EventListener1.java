@@ -101,15 +101,15 @@ public class EventListener1 extends ListenerAdapter {
                             channel.sendMessage("https://www.tutorialspoint.com/swift").queue();
                             break;
                         case 6:
+                            channel.sendMessage("http://www.cplusplus.com/doc/tutorial/");
+                            channel.sendMessage("https://www.learncpp.com/").queue();
                             break;
                         case 7:
-
+                            channel.sendMessage("https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/").queue();
+                            channel.sendMessage("https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/").queue();
                             break;
                         case 8:
-
-                            break;
-                        case 9:
-
+                            channel.sendMessage("Sorry! No docs for this language yet! :(").queue();
                             break;
                     }
                 }
