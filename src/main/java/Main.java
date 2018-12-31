@@ -7,7 +7,7 @@ public class Main extends ListenerAdapter {
         EventListener1 listener = new EventListener1();
 
         try{
-            JDA api = new JDABuilder(AccountType.BOT).setToken("NDk3NzYwNTEzMjUwNTU3OTYz.DwqwwA.m-DVAgg3a3tHutoqQoUuC2dOjzU").build();
+            JDA api = new JDABuilder(AccountType.BOT).setToken("token").build();
             api.addEventListener(listener);
             api.addEventListener(listener.getEventWaiter());
 
